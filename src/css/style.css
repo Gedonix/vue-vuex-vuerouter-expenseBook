@@ -1,0 +1,233 @@
+@import url('./font.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    padding: 20px 0 20px 20px;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.link_active {
+    border-left: 2px solid #000;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 10px auto 10px;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.header {
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.menu_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu_item span {
+    padding-left: 20px;
+}
+
+.show_header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show_header {
+    height: 120px;
+    padding: 10px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.show_header_clear {
+    padding: 10px 20px 0
+}
+
+.show_btn {
+    width: 250px;
+    height: 30px;
+}
+
+.radio {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.inputs input {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.inputs select {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.inputs button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.list_wrapper {
+    width: 100%;
+    padding: 15px 20px 0;
+}
+
+.list_header {
+    display: flex;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cell {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list_cell_1 {
+    width: 25%
+}
+
+.list_cell_2 {
+    width: 25%
+}
+
+.list_cell_3 {
+    width: 35%
+}
+
+.list_cell_4 {
+    width: 15%
+}
+
+.list_table {
+    display: flex;
+}
+
+.active {
+    color: darkred;
+}
+
+.passive {
+    color: black;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer button {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.warning {
+    margin-top: 10px;
+    width: 350px;
+    height: 20px;
+    color: brown;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show_left {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.show_left button {
+    width: 200px;
+    height: 30px;
+}
+
+.show_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.show_right p {
+    padding-top: 10px;
+    font-size: 20px;
+    color: brown;
+}

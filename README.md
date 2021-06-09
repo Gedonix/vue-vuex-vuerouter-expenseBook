@@ -1,4 +1,4 @@
-# vue-ledger
+# Vue-Vuex-VueRouter Expense Book
 
 ## Project setup
 ```
